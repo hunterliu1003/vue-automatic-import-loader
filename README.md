@@ -1,7 +1,7 @@
 # vue-automatic-import-loader
 Using a match function to automatic import your own project's components
 
-This repo copy from vuetify-loader and remove the vuetify part.
+This repo copy from [vuetify-loader](https://github.com/vuetifyjs/vuetify-loader) and remove the vuetify part.
 
 ```js
 // webpack.config.js
