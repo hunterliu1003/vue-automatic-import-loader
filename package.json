@@ -1,0 +1,33 @@
+{
+  "name": "vue-automatic-import-loader",
+  "version": "0.1.0",
+  "description": "Using a match function to automatic import your own project's components",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunterliu1003/vue-automatic-import-loader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hunter Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunterliu1003/vue-automatic-import-loader/issues"
+  },
+  "homepage": "https://github.com/hunterliu1003/vue-automatic-import-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2"
+  },
+  "peerDependencies": {
+    "vue-template-compiler": "^2.5.0",
+    "webpack": "^4.0.0"
+  },
+  "optionalPeerDependencies": {
+    "pug": "^2.0.0"
+  }
+}
