@@ -29,3 +29,38 @@ exports.plugins.push(
   })
 )
 ```
+
+```html
+<template>
+  <core-form>
+      ...
+  </core-form>
+</template>
+
+<script>
+  export default {
+    ...
+  }
+</script>
+```
+
+Will be compiled into:
+
+```html
+<template>
+  <core-form>
+    ...
+  </core-form>
+</template>
+
+<script>
+  import CoreForm from '@/components/core/Form.vue'
+
+  export default {
+    components: {
+      CoreForm
+    },
+    ...
+  }
+</script>
+```
