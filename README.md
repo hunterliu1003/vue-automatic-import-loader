@@ -3,7 +3,7 @@ Using a match function to automatic import your own project's components
 
 This repo copy from vuetify-loader and remove the vuetify part.
 
-```
+```js
 // webpack.config.js
 
 const VueAutomaticImportPlugin = require('vue-automatic-import-loader/lib/plugin')
