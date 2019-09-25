@@ -8,14 +8,21 @@ import BaseText from "@/components/BaseText";
 import BaseButton from "@/components/BaseButton";
 import BaseInput from "@/components/BaseInput";
 import BasePagination from "@/components/BasePagination";
+import BaseTabs from "@/components/BaseTabs";
 import BaseFooter from "@/components/BaseFooter";
 
-Vue.components("BaseHeader", BaseHeader);
-Vue.components("BaseText", BaseText);
-Vue.components("BaseButton", BaseButton);
-Vue.components("BaseInput", BaseInput);
-Vue.components("BasePagination", BasePagination);
-Vue.components("BaseFooter", BaseFooter);
+Vue.component("BaseHeader", BaseHeader);
+Vue.component("BaseText", BaseText);
+Vue.component("BaseButton", BaseButton);
+Vue.component("BaseInput", BaseInput);
+Vue.component("BasePagination", BasePagination);
+Vue.component("BaseTabs", BaseTabs);
+Vue.component("BaseFooter", BaseFooter);
+
+/* 
+  無法確定 App 中一定有用到這些全域元件
+  造成不必要的引入
+*/
 
 Vue.config.productionTip = false;
 

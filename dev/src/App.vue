@@ -4,8 +4,9 @@
       <BaseHeader></BaseHeader>
       <BaseText></BaseText>
       <BaseButton></BaseButton>
-      <BaseInput></BaseInput>
+      <!-- <BaseInput></BaseInput> -->
       <BasePagination></BasePagination>
+      <BaseTabs></BaseTabs>
       <BaseFooter></BaseFooter>
     </div>
   </div>
