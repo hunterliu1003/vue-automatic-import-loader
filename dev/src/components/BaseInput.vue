@@ -1,3 +1,3 @@
 <template>
-  <div>Home</div>
+  <div>BaseInput</div>
 </template>

@@ -11,6 +11,26 @@
   </div>
 </template>
 
+<script>
+import BaseHeader from "@/components/BaseHeader";
+import BaseText from "@/components/BaseText";
+import BaseButton from "@/components/BaseButton";
+import BaseInput from "@/components/BaseInput";
+import BasePagination from "@/components/BasePagination";
+import BaseFooter from "@/components/BaseFooter";
+
+export default {
+  components: {
+    BaseHeader,
+    BaseText,
+    BaseButton,
+    BaseInput,
+    BasePagination,
+    BaseFooter
+  }
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
