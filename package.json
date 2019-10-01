@@ -2,6 +2,13 @@
   "name": "vue-automatic-import-loader",
   "version": "0.1.2",
   "description": "Using a match function to automatic import your own project's components",
+  "keywords": [
+    "vue", 
+    "auto", 
+    "automatic", 
+    "import", 
+    "webpack loader"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
