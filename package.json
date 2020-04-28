@@ -27,11 +27,11 @@
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
-    "vue-template-compiler": "^2.5.17",
-    "webpack": "^4.20.2"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.37.0"
   },
   "peerDependencies": {
-    "vue-template-compiler": "^2.5.0",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.0.0"
   },
   "optionalPeerDependencies": {
