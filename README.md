@@ -34,13 +34,25 @@ will be automatically compiled to:
 </script>
 ```
 
-## Install
+## Run example project
 
 ```bash
-$ yarn add vue-automatic-import-loader
+$ git clone https://github.com/hunterliu1003/vue-automatic-import-loader.git
+$ cd vue-automatic-import-loader/dev
+$ yarn install
+$ yarn serve
 ```
+Then you can see demo in http://localhost:8080/
 
 ## Usage
+
+### Install package
+
+```bash
+$ npm install --save vue-automatic-import-loader
+# or
+$ yarn add vue-automatic-import-loader
+```
 
 ### Vue CLI 3
 
@@ -84,6 +96,7 @@ in nuxt.config.js:
 
 ```js
 import VueAutomaticImportPlugin from 'vue-automatic-import-loader/lib/plugin'
+
 export default {
   build: {
     plugins: [
