@@ -1,6 +1,6 @@
 {
   "name": "vue-automatic-import-loader",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Using a match function to automatic import your own project's components",
   "keywords": [
     "vue", 
